@@ -1,0 +1,74 @@
+/* Write your CSS code here */
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.card1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.heading {
+  color: #12022f;
+  font-size: 30px;
+  font-weight: 800;
+  margin-right: 50px;
+  font-family: Roboto;
+  border-bottom: 0px;
+  text-decoration: none;
+}
+.heading1 {
+  color: #12022f;
+  font-size: 30px;
+  font-weight: 800;
+  margin-right: 50px;
+  font-family: Roboto;
+}
+.image {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
+.Item {
+  list-style-type: none;
+}
+@media (max-width: 600px) {
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .card1 {
+    margin-left: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .heading {
+    color: #12022f;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 10px;
+    font-family: Roboto;
+    border-bottom: 0px;
+    margin-right: 0px;
+    text-decoration: none;
+  }
+  .heading1 {
+    color: #12022f;
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 0px;
+    font-family: Roboto;
+  }
+  .image {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+  }
+}
